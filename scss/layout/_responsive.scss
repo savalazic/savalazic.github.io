@@ -47,9 +47,7 @@
   }
 }
 
-@media screen and (max-width:930px) {
 
-}
 
 @media screen and (max-width: 850px) {
 
@@ -74,12 +72,21 @@
 
     .desc {
       font-size: 130%;
-      margin-top: 50px;
-      margin-bottom: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
 
     .head {
       font-size: 160%;
+    }
+  }
+
+  #work {
+    h1 {
+      margin-top: 30px;
+    }
+    h2 {
+      margin-top: 30px;
     }
   }
 
@@ -89,8 +96,13 @@
     }
 
     .social {
-      bottom: 130px;
-      font-size: 250%;
+      display: none;
+    }
+
+    .copyright {
+      p {
+        display: none;
+      }
     }
   }
 }
