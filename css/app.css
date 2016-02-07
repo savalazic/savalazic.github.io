@@ -9783,6 +9783,12 @@ button, a {
 
   #contact p {
     font-size: 100%; } }
+@media screen and (max-width: 500px) {
+  #contact .social {
+    bottom: 80px;
+    font-size: 300%; }
+    #contact .social i {
+      margin-right: 5px; } }
 #work {
   background-color: #d3d4d8; }
   #work h1 {
