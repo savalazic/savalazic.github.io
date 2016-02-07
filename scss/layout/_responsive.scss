@@ -120,16 +120,31 @@
 }
 
 @media screen and (max-width: 500px) {
-  $font-size:   13px;
 
-  #contact {
-    .social {
-      bottom: 80px;
-      font-size: 300%;
+  body {
+    font-size: 13px;
+  }
 
-      i {
-        margin-right: 5px;
+  #about {
+    .skills {
+      p {
+        font-size: 140%;
+        padding: 5px 10px;
       }
     }
+
+    .row:last-of-type {
+      display: none;
+    }
   }
+
+  #contact {
+    .btn-default {
+      font-size: 140%;
+      padding: 15px;
+    }
+
+  }
+
+
 }

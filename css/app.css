@@ -9784,11 +9784,18 @@ button, a {
   #contact p {
     font-size: 100%; } }
 @media screen and (max-width: 500px) {
-  #contact .social {
-    bottom: 80px;
-    font-size: 300%; }
-    #contact .social i {
-      margin-right: 5px; } }
+  body {
+    font-size: 13px; }
+
+  #about .skills p {
+    font-size: 140%;
+    padding: 5px 10px; }
+  #about .row:last-of-type {
+    display: none; }
+
+  #contact .btn-default {
+    font-size: 140%;
+    padding: 15px; } }
 #work {
   background-color: #d3d4d8; }
   #work h1 {
@@ -9816,7 +9823,7 @@ button, a {
     #contact .social a:hover {
       color: #2B4450; }
     #contact .social i {
-      margin-right: 30px; }
+      margin-right: 10px; }
   #contact .copyright {
     position: absolute;
     bottom: 50px; }
