@@ -9782,8 +9782,9 @@ button, a {
 @media screen and (max-width: 590px) {
   #about .desc {
     font-size: 120%; }
-  #about .skills {
-    font-size: 80%; }
+  #about .skills p {
+    font-size: 95%;
+    padding: 5px 10px; }
 
   #work p.design-desc {
     font-size: 100%; }
@@ -9796,9 +9797,6 @@ button, a {
   body {
     font-size: 13px; }
 
-  #about .skills p {
-    font-size: 140%;
-    padding: 5px 10px; }
   #about .row:last-of-type {
     display: none; }
 
