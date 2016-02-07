@@ -52,6 +52,10 @@
 }
 
 @media screen and (max-width: 850px) {
+
+  .nav {
+    display: none;
+  }
   #about {
     .desc {
       font-size: 140%;
