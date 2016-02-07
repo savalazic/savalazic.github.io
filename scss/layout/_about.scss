@@ -1,0 +1,35 @@
+#about {
+  background-color: #d3d4d8;
+
+  .desc {
+    font-size: 180%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .head {
+    font-size: 180%;
+  }
+
+  .skills {
+    p {
+      font-size: 100%;
+      display: inline-block;
+      margin: 0 20px 20px 0;
+      border: 2px solid #4d606e;
+      padding: 8px 20px;
+    }
+  }
+
+  .row:last-of-type {
+    margin-top: 50px;
+
+    a {
+      font-size: 150%;
+    }
+
+    .email {
+      margin-top: 10px;
+    }
+  }
+}

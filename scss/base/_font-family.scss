@@ -1,0 +1,21 @@
+// Font directory, families, weights
+
+@font-face {
+	font-family: consolas;
+	src: url(../fonts/consolas-regular.ttf);
+	font-weight: 300;
+}
+@font-face {
+	font-family: consolas;
+	src: url(../fonts/consolas-bold.ttf);
+	font-weight: 600;
+}
+@font-face {
+	font-family: consolas;
+	src: url(../fonts/consolas-italic.ttf);
+	font-style: italic;
+}
+
+$font-stack: 'consolas';
+$font-size:   17px;
+$font-weight: 400;
