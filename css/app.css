@@ -9768,10 +9768,12 @@ button, a {
   #about .head {
     font-size: 160%; }
 
-  #work h1 {
-    margin-top: 30px; }
-  #work h2 {
-    margin-top: 30px; }
+  #work .work-h1 {
+    margin-top: 20px; }
+  #work .design-h2 {
+    margin-top: 20px; }
+  #work .develop-h2 {
+    margin-top: 20px; }
 
   #contact p {
     font-size: 100%; }
