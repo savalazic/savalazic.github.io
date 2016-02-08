@@ -51,17 +51,16 @@
 
 @media screen and (max-width: 850px) {
 
-  .nav {
+  .logo {
     display: none;
   }
+
   #about {
     .desc {
       font-size: 140%;
     }
-
   }
 
-  /* MENI */
 }
 
 @media screen and (max-width: 768px) {
@@ -82,8 +81,6 @@
   }
 
   #work {
-
-
     .work-h1 {
       margin-top: 20px;
     }
@@ -117,6 +114,11 @@
 }
 
 @media screen and (max-width: 590px) {
+
+  .nav {
+    text-align: center;
+  }
+
   #about {
     .desc {
       font-size: 120%;
@@ -168,6 +170,12 @@
     }
 
   }
+}
 
-
+@media screen and (max-width: 360px){
+  .nav {
+    a {
+      margin-left: 5px;
+    }
+  }
 }

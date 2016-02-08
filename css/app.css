@@ -9751,13 +9751,11 @@ button, a {
   #about .col-sm-10 {
     padding-left: 50px; } }
 @media screen and (max-width: 850px) {
-  .nav {
+  .logo {
     display: none; }
 
   #about .desc {
-    font-size: 140%; }
-
-  /* MENI */ }
+    font-size: 140%; } }
 @media screen and (max-width: 768px) {
   #about .col-sm-10 {
     padding-left: 15px; }
@@ -9782,6 +9780,9 @@ button, a {
   #contact .copyright p {
     display: none; } }
 @media screen and (max-width: 590px) {
+  .nav {
+    text-align: center; }
+
   #about .desc {
     font-size: 120%; }
   #about .skills p {
@@ -9805,6 +9806,9 @@ button, a {
   #contact .btn-default {
     font-size: 140%;
     padding: 15px; } }
+@media screen and (max-width: 360px) {
+  .nav a {
+    margin-left: 5px; } }
 #work {
   background-color: #d3d4d8; }
   #work h1 {
