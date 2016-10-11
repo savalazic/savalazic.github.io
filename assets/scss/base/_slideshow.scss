@@ -1,0 +1,63 @@
+/*
+ * Slideshow styles
+*/
+
+.multiple-items {
+  z-index: 999;
+}
+
+.slick-list {
+  margin: 0 -35px;
+}
+
+.slick-slide {
+  outline: none;
+  margin: 0 35px;
+
+  img {
+    margin: 0 auto;
+  }
+}
+
+/*
+ * Dots and arrows styles
+*/
+
+.slick-dots {
+  bottom: -50px;
+
+  li {
+    button {
+      &::before {
+        font-size: 30px;
+        color: $color-primary!important;
+      }
+
+    }
+  }
+}
+
+.slick-prev,
+.slick-next {
+
+  &::before {
+    font-family: 'FontAwesome';
+    color: $color-primary;
+    font-size: 35px;
+  }
+
+}
+
+.slick-prev {
+  left: -60px;
+  &::before {
+    content: '\f104';
+  }
+}
+
+.slick-next {
+  right: -60px;
+  &::before {
+    content: '\f105';
+  }
+}

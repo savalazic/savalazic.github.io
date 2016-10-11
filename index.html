@@ -2,223 +2,167 @@
 <html lang="en">
 <head>
     <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
-    <title>Sava Lazic - Web Developer</title>
-    <link href="css/app.css" rel="stylesheet">
+    <title>Sava Lazic | Frontend Developer</title>
+    <link href="assets/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,500" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
+  
+  <div class="load-screen">
+    <div class="blue-screen">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
 
-  <div class="main">
-    <section id="home">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-xs-12">
-            <a href="javascript:void(0)"><img  class="logo" src="img/content/logo2.png" alt=""></a>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <div class="nav text-right">
-              <a data-intex="1" href="#1" class="home active">home</a>
-              <a data-intex="2" href="#2" class="about">about</a>
-              <a data-intex="3" href="#3" class="works">work</a>
-              <a data-intex="4" href="#4" class="contact">contact</a>
-            </div>
-          </div>
+	<div class="container-fluid">
+		<div class="row">
+
+      <nav class="side-nav">
+        <ul>
+          <li class="active"><a href="javascript:void(0)">about</a></li>
+          <li><a href="javascript:void(0)">portfolio</a></li>
+          <li><a href="javascript:void(0)">contact</a></li>
+        </ul>
+      </nav> <!-- end of nav -->
+
+		  <section class="main col-md-6">
+
+		  	<div class="main-headline">
+			  	<h1>Frontend Developer</h1>
+			  	<h1>UX & UI Lover</h1>
+			  	<a class="btn-download" href="sava-resume.pdf" target="_blank"><i class="fa fa-download"></i>Download resume</a>
+		  	</div>
+        <div class="main-social">
+          <a href="https://github.com/savalazic" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://rs.linkedin.com/in/savalazic" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://dribbble.com/savalazic" target="_blank"><i class="fa fa-dribbble"></i></a>
+          <a href="https://www.behance.net/savalazic" target="_blank"><i class="fa fa-behance"></i></a>
+          <a href="http://codepen.io/savalazic/" target="_blank"><i class="fa fa-codepen"></i></a>
         </div>
+		  </section>
 
-        <div class="col-sm-12">
-          <div class="row">
-            <div class="welcome">
-              <!-- <div id="typed-strings">
-                  <p>Hello World. <br> My name is Sava Lazic. <br> I'm a Web Developer.</p>
-              </div> -->
-              <span id="typed" class="element"></span>
-              <!-- <p>Hello World.</p>
-              <p>My name is Sava Lazic.</p>
-              <p>I'm a Web Developer.</p> -->
-            </div>
-          </div>
-        </div>
-      </div> <!-- end of container -->
-    </section> <!-- end of home -->
+		  <section class="secondary col-md-6">
+		  	<div class="secondary-content">
 
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <a href="javascript:void(0)"><img class="logo" src="img/content/logo2.png" alt=""></a>
-          </div>
-          <div class="col-sm-6">
-            <div class="nav text-right">
-              <a data-intex="1" href="#1" class="home">home</a>
-              <a data-intex="2" href="#2" class="about active">about</a>
-              <a data-intex="3" href="#3" class="works">work</a>
-              <a data-intex="4" href="#4" class="contact">contact</a>
-            </div>
-          </div>
-        </div>
+          <div class="content-about is-active">
+            <h2>Hello, I'm Sava Lazic</h2>
+            <p>Frontend Developer & Web Designer focused on web trends and interactivity.<br/>Check out my <a class="portfolio-link" href="javascript:void(0)">portfolio</a>.</p>
+          </div> <!-- end of about -->
 
-        <div class="row">
-          <div class="col-md-8 col-sm-12 desc-about">
-            <p class="desc"><span id="typed" class="type-desc"></span></p>
-            <!-- <p class="desc">I'm a young web developer(22) who enjoys creating beautiful, modern, responsive websites and who is very passionate about web design and programming. I'm also student of Computer and Information Sciences in Belgrade, Singidunum University.</p> -->
-          </div>
-        </div>
+          <div class="content-portfolio">
+            
+            <div class="multiple-items">
 
-        <div class="row">
-          <div class="col-md-2 col-sm-12 col-xs-12">
-            <p class="head">skills:</p>
-          </div>
-          <div class="col-md-6 col-sm-12 col-xs-12 skills">
+              <div class="slideshow-item">
+                <img src="assets/img/limitless-work.png" alt="">
+                <h2>Limitless App Landing Page</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>I have been working on mobile app landing page template. Primary focus was on scroll animation and beautiful design.</p>
+                <a class="btn-view" href="http://test.ga2s.net/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-            <!-- <p><span id="typed" class="html"></span></p>
-            <p><span id="typed" class="css"></span></p>
-            <p><span id="typed" class="js"></span></p>
-            <p><span id="typed" class="jquery"></span></p>
-            <p><span id="typed" class="responsive"></span></p>
-            <p><span id="typed" class="design"></span></p>
-            <p><span id="typed" class="php"></span></p>
-            <p><span id="typed" class="java"></span></p>
-            <p><span id="typed" class="mysql"></span></p>
-            <p><span id="typed" class="android"></span></p> -->
-            <p>html5</p>
-            <p>css3</p>
-            <p>javascript</p>
-            <p>jquery</p>
-            <p>responsive</p>
-            <p>web design</p>
-            <p>php</p>
-            <p>java</p>
-            <p>mysql</p>
-            <p>android</p>
-          </div>
-        </div>
+              <div class="slideshow-item">
+                <img src="assets/img/riobasket-work.png" alt="">
+                <h2>Riobasket Basketball Fantasy</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>My collegues and I found Riobasket fantasy game. Through Olympics 2016. Riobasket was played by more then 100 players from Serbia.</p>
+                <a class="btn-view" href="http://riobasket.ga2s.net/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-        <div class="row">
-          <div class="col-sm-2 col-xs-12">
-            <p class="head">contact:</p>
-          </div>
-          <div class="col-sm-10 col-xs-12">
-            <p class="email">
-              <i class="ion-email"></i>
-              <a href="mailto:savalazic9@gmail.com" target="_top">savalazic9@gmail.com</a>
-            </p>
-          </div>
-        </div>
+              <div class="slideshow-item">
+                <img src="assets/img/marmedica-work.png" alt="">
+                <h2>Mar Medica</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>Recently I worked on Mar Medica one-page website. </p>
+                <a class="btn-view" href="http://www.marmedica.com/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-      </div> <!-- end of container -->
-    </section> <!-- end of about -->
+              <div class="slideshow-item">
+                <img src="assets/img/ga2s-work.png" alt="">
+                <h2>GA2S Design</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>This is first version of GA2S web design agency. Later this year we will present second version.</p>
+                <a class="btn-view" href="http://ga2s.net/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-    <section id="work">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <a href="javascript:void(0)"><img class="logo" src="img/content/logo2.png" alt=""></a>
-          </div>
-          <div class="col-sm-6">
-            <div class="nav text-right">
-              <a data-intex="1" href="#1" class="home">home</a>
-              <a data-intex="2" href="#2" class="about">about</a>
-              <a data-intex="3" href="#3" class="works active">work</a>
-              <a data-intex="4" href="#4" class="contact">contact</a>
-            </div>
-          </div>
-        </div>
+              <div class="slideshow-item">
+                <img src="assets/img/bock-work.png" alt="">
+                <h2>Bock Trocknung</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>Website for German client Christopher Bock. I was very focused on UX, to get him more clients.</p>
+                <a class="btn-view" href="http://www.bock-trocknung.de/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="work-h1"><span id="typed" class="work-header"></span></h1>
-          </div>
-        </div>
+              <div class="slideshow-item">
+                <img src="assets/img/old-portfolio-work.png" alt="">
+                <h2>My First Personal Portfolio</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>First try to develop good looking portfolio. It's my first, so I love it!</p>
+                <a class="btn-view" href="https://savalazic.github.io/savalazic-portfolio-v1/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="design-h2"><span id="typed" class='design-work'></span></h2>
-          </div>
-          <div class="col-sm-8 col-xs-12">
-            <p class="design-desc">I like to keep it simple. My goals are to focus on typography, content and the message that you want to send. <br>
-              I'm a minimalist who truly believes that less is more.
-            </p>
-          </div>
-        </div> <!-- end of row -->
-
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="develop-h2"><span id="typed" class="develop-work"></span></h2>
-          </div>
-          <div class="col-sm-8 col-xs-12">
-            <p class="develop-desc">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.<br>
-              I design with HTML5, CSS3, JavaScript, jQuery, PHP.<br>I love coding from scratch,
-              but I can work with Bootstrap/Foundation.
-            </p>
-          </div>
-        </div>
-      </div> <!-- end of container -->
-    </section> <!-- end of work -->
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <a href="javascript:void(0)"><img class="logo" src="img/content/logo2.png" alt=""></a>
-          </div>
-          <div class="col-sm-6">
-            <div class="nav text-right">
-              <a data-intex="1" href="#1" class="home">home</a>
-              <a data-intex="2" href="#2" class="about">about</a>
-              <a data-intex="3" href="#3" class="works">work</a>
-              <a data-intex="4" href="#4" class="contact active">contact</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <h2>I’m currently available for freelance work.</h2>
-            <p>If you have a project that you want to get started,
-              or you need my help, <br> please take a few minutes and tell me about it.
-            </p>
-          </div>
-          <div class="col-sm-12">
-            <a class="btn btn-default" href="mailto:savalazic9@gmail.com" role="button"><span id="typed" class="msg"></span></a>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 social">
-
-            <a href="https://www.facebook.com/lazicsava" target="_blank"><i class="ion-social-facebook"></i></a>
-            <a href="https://www.pinterest.com/savalazic/" target="_blank"><i class="ion-social-pinterest"></i></a>
-            <a href="https://rs.linkedin.com/in/savalazic" target="_blank"><i class="ion-social-linkedin"></i></a>
-            <a href="https://dribbble.com/savalazic" target="_blank"><i class="ion-social-dribbble"></i></a>
-
+              <div class="slideshow-item">
+                <img src="assets/img/tj-work.png" alt="">
+                <h2>TJ Personal Website</h2>
+                <p class="lead-work-headline">UI/Frontend Development</p>
+                <p>Playing around with some PSD, and converting to HTML.</p>
+                <a class="btn-view" href="http://travisjohnson.getforge.io/" target="_blank">View Website <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
+              
+            </div> <!-- end of multiple-item -->
 
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12 copyright">
-            <p>copyright &copy; 2016<br>
-              made with <i class="ion-android-favorite"></i> by Sava Lazic
-            </p>
+          <div class="content-contact">
+            <h2>Let's work together</h2>
+            <p>I'm always available to work on interested projects. Just drop me a message at <a href="mailto:savalazic9@gmail.com">savalazic9@gmail.com</a></p>
+            <a class="btn-email" href="mailto:savalazic9@gmail.com" target="_top">Write An Email</a>
           </div>
-        </div>
-      </div> <!-- end of container -->
-    </section>  <!-- end of contact -->
 
-  </div> <!-- end of main -->
+        </div> <!-- end of secondary-content -->
+		  </section> <!-- end of secondary -->
+		</div>
+	</div>
 
 
-  <script src="js/lib/jquery.js"></script>
-  <script src="js/lib/bootstrap.min.js"></script>
-  <script src="js/lib/onepagescroll.min.js"></script>
-  <script src="js/lib/typed.min.js"></script>
-  <script src="js/plugins/main.js"></script>
+
+  <!-- first try to load from cdn -->
+  <script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- if cdn fails, load local jquery -->
+  <script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

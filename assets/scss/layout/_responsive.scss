@@ -1,0 +1,94 @@
+/*
+ * Responsive media queries
+*/
+
+@media screen and (max-width: 992px) {
+
+	.loaded {
+		.load-screen {
+			transform: translateX(-100%);
+		}
+	}
+
+	nav {
+		display: none;
+	}
+
+	.main, .secondary {
+		height: auto;
+	}
+
+	.main {
+		padding: 150px 0;
+	}
+
+	.main-headline, .secondary-content {
+		width: 100%;
+		padding: 0 15px;
+		position: relative;
+	}
+
+	.secondary {
+		padding: 0;
+	}
+
+	.secondary-content {
+		text-align: center;
+		position: relative;
+    width: auto;
+    top: auto;
+    left: auto;
+    transform: translate(0,0);
+
+		> div {
+			padding: 70px 0;
+			left: 0;
+			position: relative;
+	    top: auto;
+	    transform: translate(0,0);
+	    visibility: visible;
+	    opacity: 1;
+		}
+
+	}
+
+	.btn-download {
+		display: none;
+	}
+	
+	.main-social {
+		left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+    bottom: auto;
+	}
+
+	.content-about {
+
+		&::after {
+			left: 50%;
+    	transform: translateX(-50%);
+		}
+	}
+
+	.content-portfolio {
+		img {
+			width: 80%;
+		}
+	}
+
+	.slick-prev {
+	  left: -10px;
+	}
+
+	.slick-next {
+	  right: -10px;
+	}
+
+	.is-active {
+		transform: translate(0, 0)!important;
+	}
+
+
+
+}
